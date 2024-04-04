@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 55,
         padding: EdgeInsets.only(left: 20),
         child: ListView.builder(
-          //controller: title ,
+          //controller: title ,//???/////
           scrollDirection: Axis.horizontal,
           itemBuilder: (BuildContext context, int index) {
             return InkWell(
